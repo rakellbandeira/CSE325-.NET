@@ -62,11 +62,11 @@ void GenerateSalesSummaryReport(Dictionary<string, double> fileTotals, double sa
     report.AppendLine();
     report.AppendLine($"Total Sales: {salesTotal:C}");
     report.AppendLine();
-    //report.AppendLine("Details");
+    report.AppendLine("Details");
 
     foreach (var entry in fileTotals)
     {
-        report.AppendLine($"{entry.Key}: {entry.Value:C}");
+        report.AppendLine($"filename: {entry.Key}: {entry.Value:C}");
     }
 
     report.AppendLine("---------------------------");
