@@ -1,0 +1,119 @@
+1. Evidence from the end of the module Create a web API with ASP.NET Core controllers showing the existing content, and your additional record.
+- Add at least one additional record to the Create a web API with ASP.NET Core controllers module in the Pizzas List. Verify API behavior by testing a working request and response example for each operation: GET, POST, PUT, and DELETE. Include the returned status code for each example.
+
+R=
+a. I added the POST Request to ConttosoPizza.http: 
+======
+POST {{ContosoPizza_HostAddress}}/pizza/
+Content-Type: application/json
+
+{
+    "name": "Brazilian Pizza",
+    "isGlutenFree": false
+}
+======
+
+and the response was:
+=======
+HTTP/1.1 201 Created
+Connection: close
+Content-Type: application/json; charset=utf-8
+Date: Thu, 09 Jul 2026 16:15:46 GMT
+Server: Kestrel
+Location: http://localhost:5109/Pizza/4
+Transfer-Encoding: chunked
+
+{
+  "id": 4,
+  "name": "Brazilian Pizza",
+  "isGlutenFree": false
+}
+========
+
+
+b. I added the GET Request to ConttosoPizza.http: 
+======
+GET {{ContosoPizza_HostAddress}}/pizza/4
+Accept: application/json
+======
+
+and the response was:
+=======
+HTTP/1.1 200 OK
+Connection: close
+Content-Type: application/json; charset=utf-8
+Date: Thu, 09 Jul 2026 16:21:02 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+
+{
+  "id": 4,
+  "name": "Brazilian Pizza",
+  "isGlutenFree": false
+}
+========
+
+
+c. I added the PUT Request to ConttosoPizza.http: 
+======
+PUT {{ContosoPizza_HostAddress}}/pizza/4
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "Hawaiian",
+    "isGlutenFree": true
+}
+======
+
+and the response was:
+=======
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Type: application/problem+json; charset=utf-8
+Date: Thu, 09 Jul 2026 16:22:32 GMT
+Server: Kestrel
+Transfer-Encoding: chunked
+
+{
+  "type": "https://tools.ietf.org/html/rfc9110#section-15.5.1",
+  "title": "Bad Request",
+  "status": 400,
+  "traceId": "00-2ebdc6bb82ef0a79e550af1311feb3f0-bbeb525de405a6d1-00"
+}
+========
+
+d. I added the DELETE Request to ConttosoPizza.http: 
+======
+DELETE {{ContosoPizza_HostAddress}}/pizza/4
+======
+
+and the response was:
+=======
+HTTP/1.1 204 No Content
+Connection: close
+Date: Thu, 09 Jul 2026 16:23:35 GMT
+Server: Kestrel
+========
+
+
+
+
+2.A text copy of your working sales summary function for Part 2.
+Sales Summary Report
+=====================
+
+Total Sales: £2,012.20
+
+Details
+filename: C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\sales.json: £88.88
+filename: C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\201\sales.json: £501.22
+filename: C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\201\salestotals.json: £0.00
+filename: C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\202\sales.json: £1,234.22
+filename: C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\202\salestotals.json: £0.00
+filename: C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\203\sales.json: £99.00
+filename: C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\203\salestotals.json: £0.00
+filename: C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\204\sales.json: £88.88
+filename: C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\204\salestotals.json: £0.00
+---------------------------
+
