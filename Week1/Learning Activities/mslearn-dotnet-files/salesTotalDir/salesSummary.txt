@@ -1,0 +1,16 @@
+Sales Summary Report
+=====================
+
+Total Sales: £2,012.20
+
+Details
+C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\sales.json: £88.88
+C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\201\sales.json: £501.22
+C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\201\salestotals.json: £0.00
+C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\202\sales.json: £1,234.22
+C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\202\salestotals.json: £0.00
+C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\203\sales.json: £99.00
+C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\203\salestotals.json: £0.00
+C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\204\sales.json: £88.88
+C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week1\Learning Activities\mslearn-dotnet-files\stores\204\salestotals.json: £0.00
+----------------------------
