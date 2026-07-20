@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Rakell\\Documents\\BYU_2026_Term4\\.NET\\Week3\\BlazorApp1\\BlazorApp1.csproj": {}
+    "C:\\Users\\Rakell\\Documents\\BYU_2026_Term4\\.NET\\Week3\\BlazorApp1\\BlazorApp1.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Rakell\\Documents\\BYU_2026_Term4\\.NET\\Week3\\BlazorApp1\\BlazorApp1.csproj": {
+    "C:\\Users\\Rakell\\Documents\\BYU_2026_Term4\\.NET\\Week3\\BlazorApp1\\BlazorApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Rakell\\Documents\\BYU_2026_Term4\\.NET\\Week3\\BlazorApp1\\BlazorApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Rakell\\Documents\\BYU_2026_Term4\\.NET\\Week3\\BlazorApp1\\BlazorApp1.csproj",
         "projectName": "BlazorApp1",
-        "projectPath": "c:\\Users\\Rakell\\Documents\\BYU_2026_Term4\\.NET\\Week3\\BlazorApp1\\BlazorApp1.csproj",
+        "projectPath": "C:\\Users\\Rakell\\Documents\\BYU_2026_Term4\\.NET\\Week3\\BlazorApp1\\BlazorApp1.csproj",
         "packagesPath": "C:\\Users\\Rakell\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Rakell\\Documents\\BYU_2026_Term4\\.NET\\Week3\\BlazorApp1\\obj\\",
+        "outputPath": "C:\\Users\\Rakell\\Documents\\BYU_2026_Term4\\.NET\\Week3\\BlazorApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rakell\\AppData\\Roaming\\NuGet\\NuGet.Config"

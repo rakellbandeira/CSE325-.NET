@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TN2OHmw1igU=",
+  "dgSpecHash": "VQKCP1jD7RI=",
   "success": true,
   "projectFilePath": "C:\\Users\\Rakell\\Documents\\BYU_2026_Term4\\.NET\\Week1\\Learning\\DotNetDependencies\\DotNetDependencies.csproj",
   "expectedPackageFiles": [
@@ -57,10 +57,10 @@
     "C:\\Users\\Rakell\\.nuget\\packages\\humanizer.core.zh-cn\\3.0.10\\humanizer.core.zh-cn.3.0.10.nupkg.sha512",
     "C:\\Users\\Rakell\\.nuget\\packages\\humanizer.core.zh-hans\\3.0.10\\humanizer.core.zh-hans.3.0.10.nupkg.sha512",
     "C:\\Users\\Rakell\\.nuget\\packages\\humanizer.core.zh-hant\\3.0.10\\humanizer.core.zh-hant.3.0.10.nupkg.sha512",
-    "C:\\Users\\Rakell\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.28\\microsoft.netcore.app.ref.8.0.28.nupkg.sha512",
-    "C:\\Users\\Rakell\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.28\\microsoft.windowsdesktop.app.ref.8.0.28.nupkg.sha512",
-    "C:\\Users\\Rakell\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.28\\microsoft.aspnetcore.app.ref.8.0.28.nupkg.sha512",
-    "C:\\Users\\Rakell\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.28\\microsoft.netcore.app.host.win-x64.8.0.28.nupkg.sha512"
+    "C:\\Users\\Rakell\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.29\\microsoft.netcore.app.ref.8.0.29.nupkg.sha512",
+    "C:\\Users\\Rakell\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.29\\microsoft.windowsdesktop.app.ref.8.0.29.nupkg.sha512",
+    "C:\\Users\\Rakell\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.29\\microsoft.aspnetcore.app.ref.8.0.29.nupkg.sha512",
+    "C:\\Users\\Rakell\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.29\\microsoft.netcore.app.host.win-x64.8.0.29.nupkg.sha512"
   ],
   "logs": []
 }
