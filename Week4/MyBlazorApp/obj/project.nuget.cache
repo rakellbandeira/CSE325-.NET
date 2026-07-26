@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qf8+ADP/LqI=",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Rakell\\Documents\\BYU_2026_Term4\\.NET\\Week4\\MyBlazorApp\\MyBlazorApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rakell\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.10\\microsoft.aspnetcore.app.internal.assets.10.0.10.nupkg.sha512",
+    "C:\\Users\\Rakell\\.nuget\\packages\\rakellbandeira.firstclasslibrary\\0.1.0-alpha1\\rakellbandeira.firstclasslibrary.0.1.0-alpha1.nupkg.sha512"
+  ],
+  "logs": []
+}

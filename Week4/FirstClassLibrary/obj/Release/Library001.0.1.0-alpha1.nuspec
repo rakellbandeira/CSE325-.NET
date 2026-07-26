@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Library001</id>
+    <version>0.1.0-alpha1</version>
+    <authors>Rakell Bandeira</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="8dd60a4c647c3a514774dcb814fb99049c33ab74" />
+    <dependencies>
+      <group targetFramework="net10.0">
+        <dependency id="Microsoft.AspNetCore.Components.Web" version="10.0.10" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\FirstClassLibrary\bin\Release\net10.0\FirstClassLibrary.dll" target="lib\net10.0\FirstClassLibrary.dll" />
+    <file src="C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\FirstClassLibrary\obj\Release\net10.0\scopedcss\projectbundle\Library001.bundle.scp.css" target="staticwebassets\Library001.ucnbb9swoa.bundle.scp.css" />
+    <file src="C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\FirstClassLibrary\wwwroot\background.png" target="staticwebassets\background.png" />
+    <file src="C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\FirstClassLibrary\wwwroot\exampleJsInterop.js" target="staticwebassets\exampleJsInterop.js" />
+    <file src="C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\FirstClassLibrary\obj\Release\net10.0\staticwebassets\msbuild.Library001.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" target="build\Microsoft.AspNetCore.StaticWebAssetEndpoints.props" />
+    <file src="C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\FirstClassLibrary\obj\Release\net10.0\staticwebassets\msbuild.Library001.Microsoft.AspNetCore.StaticWebAssets.props" target="build\Microsoft.AspNetCore.StaticWebAssets.props" />
+    <file src="C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\FirstClassLibrary\obj\Release\net10.0\staticwebassets\msbuild.build.Library001.props" target="build\Library001.props" />
+    <file src="C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\FirstClassLibrary\obj\Release\net10.0\staticwebassets\msbuild.buildMultiTargeting.Library001.props" target="buildMultiTargeting\Library001.props" />
+    <file src="C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\FirstClassLibrary\obj\Release\net10.0\staticwebassets\msbuild.buildTransitive.Library001.props" target="buildTransitive\Library001.props" />
+  </files>
+</package>
