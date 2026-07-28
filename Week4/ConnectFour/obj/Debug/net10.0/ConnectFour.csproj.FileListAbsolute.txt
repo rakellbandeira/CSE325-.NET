@@ -73,8 +73,6 @@ C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\ConnectFour\obj\Debug\net10.
 C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\ConnectFour\obj\Debug\net10.0\compressed\6c2w37mbjq-{0}-abdmv1u4y3-abdmv1u4y3.gz
 C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\ConnectFour\obj\Debug\net10.0\compressed\38grwflvg6-{0}-f7fxoh55ae-f7fxoh55ae.gz
 C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\ConnectFour\obj\Debug\net10.0\compressed\fecu9w6d36-{0}-68qhiysw0j-68qhiysw0j.gz
-C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\ConnectFour\obj\Debug\net10.0\compressed\8t7ubqbmk6-{0}-4iss80ddjp-4iss80ddjp.gz
-C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\ConnectFour\obj\Debug\net10.0\compressed\qps0edvuu1-{0}-4iss80ddjp-4iss80ddjp.gz
 C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\ConnectFour\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\ConnectFour\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\ConnectFour\obj\Debug\net10.0\staticwebassets.development.json
@@ -85,3 +83,5 @@ C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\ConnectFour\obj\Debug\net10.
 C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\ConnectFour\obj\Debug\net10.0\ConnectFour.pdb
 C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\ConnectFour\obj\Debug\net10.0\ConnectFour.genruntimeconfig.cache
 C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\ConnectFour\obj\Debug\net10.0\ref\ConnectFour.dll
+C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\ConnectFour\obj\Debug\net10.0\compressed\8t7ubqbmk6-{0}-dwootlol9x-dwootlol9x.gz
+C:\Users\Rakell\Documents\BYU_2026_Term4\.NET\Week4\ConnectFour\obj\Debug\net10.0\compressed\qps0edvuu1-{0}-dwootlol9x-dwootlol9x.gz

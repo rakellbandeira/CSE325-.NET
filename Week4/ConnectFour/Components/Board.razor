@@ -43,6 +43,16 @@
     }
 </div>
 
+<aside class="move-history">
+    <h4>Move History</h4>
+    <ol>
+        @foreach (var move in moveHistory)
+        {
+            <li>@move</li>
+        }
+    </ol>
+</aside>
+
 
 @code {
     private string[] pieces = new string[42];
@@ -53,14 +63,18 @@
     private string CurrentTurn => (winnerMessage == string.Empty) ? $"Player {State.PlayerTurn}'s Turn" : "";
     private string ResetStyle => (winnerMessage == string.Empty) ? "display: none;" : "";
 
+    private List<string> moveHistory = new();
+
     private void PlayPiece(byte col)
     {
+        errorMessage = string.Empty;
         try
         {
             var player = State.PlayerTurn;
             var turn = State.CurrentTurn;
             var landingRow = State.PlayPiece(col);
             pieces[turn] = $"player{player} col{col} drop{landingRow}";
+            moveHistory.Add($"Player {player} played column {col + 1} (row {landingRow})");
         }
         catch (ArgumentException ex)
         {
@@ -69,12 +83,11 @@
 
         winnerMessage = State.CheckForWin() switch
         {
-            GameState.WinState.Player1_Wins => "Player 1 Wins!",
-            GameState.WinState.Player2_Wins => "Player 2 Wins!",
-            GameState.WinState.Tie => "It's a tie!",
+            GameState.WinState.Player1_Wins => "Player 1 wins",
+            GameState.WinState.Player2_Wins => "Player 2 wins",
+            GameState.WinState.Tie => "It is a tie.",
             _ => ""
         };
-
     }
 
 
@@ -98,5 +111,6 @@
         winnerMessage = string.Empty;
         errorMessage = string.Empty;
         pieces = new string[42];
+        moveHistory.Clear();
     }
 }
